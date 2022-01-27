@@ -1,23 +1,61 @@
 ﻿@page "/json"
-@inject HttpClient Http
-<PageTitle>Mina kurser</PageTitle>
 
+@inject HttpClient Http
+<PageTitle>Public holidays</PageTitle>
+<h1>Public holidays</h1>
+
+<p>Här visas en tabell som visar alla semester dagar i USA.  </p>
+
+@if (holidays == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>date</th>
+                <th>localName</th>
+                <th>name</th>
+                <th>countryCode</th>
+                <th>type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var holiday in holidays)
+            {
+                <tr>
+                    <td>@holiday.date</td>
+                    <td>@holiday.localName</td>
+                    <td>@holiday.name</td>
+                    <td>@holiday.countryCode</td>
+                    <td>@holiday.type</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
 @code{
-    private CoursesModel[]? model;
+    private PublicHolidays[]? holidays;
+
 
     protected override async Task OnInitializedAsync()
     {
-        model = await Http.GetFromJsonAsync<CoursesModel[]>("http://asaberglund.se/rest-projekt/courses.php");
+        holidays = await Http.GetFromJsonAsync<PublicHolidays[]>("https://date.nager.at/api/v2/publicholidays/2020/US");
     }
 
 
-    public class CoursesModel
+    public class PublicHolidays
     {
-        public string id { get; set; }
-        public string university { get; set; }
-        public string link { get; set; }
-        public string description { get; set; }
+        public string? date { get; set; }
+
+        public string? localName { get; set; }
+        public string? name { get; set; }
+
+        public string? countryCode { get; set; }
+        public string? type { get; set; }
 
     }
 }

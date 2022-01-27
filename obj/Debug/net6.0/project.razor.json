@@ -41,35 +41,101 @@
         }
       },
       {
-        "HashCode": -131140394,
+        "HashCode": 870958623,
         "Kind": "Components.Component",
-        "Name": "BlazorMoment1.Shared.NavMenu",
+        "Name": "BlazorMoment1.Pages.Converter",
         "AssemblyName": "BlazorMoment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Converter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMoment1.Shared.NavMenu"
+          "Common.TypeName": "BlazorMoment1.Pages.Converter"
         }
       },
       {
-        "HashCode": 1708988646,
+        "HashCode": -1877125506,
         "Kind": "Components.Component",
-        "Name": "BlazorMoment1.Shared.NavMenu",
+        "Name": "BlazorMoment1.Pages.Converter",
         "AssemblyName": "BlazorMoment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorMoment1.Shared.NavMenu"
+            "TagName": "BlazorMoment1.Pages.Converter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMoment1.Shared.NavMenu",
+          "Common.TypeName": "BlazorMoment1.Pages.Converter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -953909249,
+        "Kind": "Components.Component",
+        "Name": "BlazorMoment1.Pages.Index",
+        "AssemblyName": "BlazorMoment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMoment1.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 691405203,
+        "Kind": "Components.Component",
+        "Name": "BlazorMoment1.Pages.Index",
+        "AssemblyName": "BlazorMoment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorMoment1.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMoment1.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1035594723,
+        "Kind": "Components.Component",
+        "Name": "BlazorMoment1.Pages.JSON",
+        "AssemblyName": "BlazorMoment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JSON"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMoment1.Pages.JSON"
+        }
+      },
+      {
+        "HashCode": 661216138,
+        "Kind": "Components.Component",
+        "Name": "BlazorMoment1.Pages.JSON",
+        "AssemblyName": "BlazorMoment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorMoment1.Pages.JSON"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMoment1.Pages.JSON",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -170,68 +236,35 @@
         }
       },
       {
-        "HashCode": -953909249,
+        "HashCode": -131140394,
         "Kind": "Components.Component",
-        "Name": "BlazorMoment1.Pages.Index",
+        "Name": "BlazorMoment1.Shared.NavMenu",
         "AssemblyName": "BlazorMoment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMoment1.Pages.Index"
+          "Common.TypeName": "BlazorMoment1.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 691405203,
+        "HashCode": 1708988646,
         "Kind": "Components.Component",
-        "Name": "BlazorMoment1.Pages.Index",
+        "Name": "BlazorMoment1.Shared.NavMenu",
         "AssemblyName": "BlazorMoment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorMoment1.Pages.Index"
+            "TagName": "BlazorMoment1.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMoment1.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 870958623,
-        "Kind": "Components.Component",
-        "Name": "BlazorMoment1.Pages.Converter",
-        "AssemblyName": "BlazorMoment1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Converter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMoment1.Pages.Converter"
-        }
-      },
-      {
-        "HashCode": -1877125506,
-        "Kind": "Components.Component",
-        "Name": "BlazorMoment1.Pages.Converter",
-        "AssemblyName": "BlazorMoment1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorMoment1.Pages.Converter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMoment1.Pages.Converter",
+          "Common.TypeName": "BlazorMoment1.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13563,8 +13596,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/asaberglund/Projects/BlazorMoment1/Pages/json.razor",
-      "TargetPath": "Pages\\json.razor",
+      "FilePath": "/Users/asaberglund/Projects/BlazorMoment1/Pages/JSON.razor",
+      "TargetPath": "Pages\\JSON.razor",
       "FileKind": "component"
     },
     {
