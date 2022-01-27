@@ -1,0 +1,23 @@
+﻿@page "/json"
+@inject HttpClient Http
+<PageTitle>Mina kurser</PageTitle>
+
+
+@code{
+    private CoursesModel[]? model;
+
+    protected override async Task OnInitializedAsync()
+    {
+        model = await Http.GetFromJsonAsync<CoursesModel[]>("http://asaberglund.se/rest-projekt/courses.php");
+    }
+
+
+    public class CoursesModel
+    {
+        public string id { get; set; }
+        public string university { get; set; }
+        public string link { get; set; }
+        public string description { get; set; }
+
+    }
+}
